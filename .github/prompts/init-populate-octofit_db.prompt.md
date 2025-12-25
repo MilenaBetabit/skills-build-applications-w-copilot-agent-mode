@@ -1,12 +1,12 @@
 ---
-mode: 'agent'
+agent: 'agent'
 model: GPT-4.1
 description: 'Setup, configure, and populate the octofit_db database with test data for the Octofit Tracker Django app.'
 ---
 
 # Environment Setup
 - Use the existing Python virtual environment in `octofit-tracker/backend/venv`.
-- Do not create a new Python virtual environment.
+- Do not create a new Python virtual environment. test
 - Activate with: `source octofit-tracker/backend/venv/bin/activate`
 - `mongodb-org-shell` is already installed; use `mongosh` to interact with MongoDB.
 - The Django project is in `octofit-tracker/backend/octofit_tracker`.
